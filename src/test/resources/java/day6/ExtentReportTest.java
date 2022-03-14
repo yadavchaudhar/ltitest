@@ -41,7 +41,7 @@ public class ExtentReportTest {
   @BeforeTest
   public void beforeTest() {
 	  //define html localtion using ExtentSparkReporter class
-	  htmlreportloc=new ExtentSparkReporter("C:\\SeleniumDrivers\\data\\MyReport.html");
+	  htmlreportloc=new ExtentSparkReporter("C:\SeleniumDrivers\\MyReport.html");
 	  //create ExtentReports class
 	  report=new ExtentReports();
 	  report.attachReporter(htmlreportloc);
